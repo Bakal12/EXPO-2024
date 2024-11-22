@@ -27,6 +27,30 @@ function App() {
             }
           />
           <Route
+            path='/pp/dmlinfo'
+            element={
+              <Enconstruccion />
+            }
+          />
+          <Route
+            path='/pp/bibliotecainfo'
+            element={
+              <Enconstruccion />
+            }
+          />
+          <Route
+            path='/pp/ecea'
+            element={
+              <Enconstruccion />
+            }
+          />
+          <Route
+            path='/pp/latindata'
+            element={
+              <Enconstruccion />
+            }
+          />
+          <Route
             path="/home"
             element={
               <M_home />
